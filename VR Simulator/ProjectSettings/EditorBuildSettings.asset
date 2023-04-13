@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Keiser Test.unity
     guid: 7c86d383552c84a46ad6e47c02c3f596
   - enabled: 1
