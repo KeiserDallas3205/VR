@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Damien Test.unity
     guid: aa4f36a5b1d13034b93c65c6881181e5
+  - enabled: 0
+    path: Assets/Scenes/PC Builder.unity
+    guid: 749bd12d305936543a98cb01265bd7a0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
