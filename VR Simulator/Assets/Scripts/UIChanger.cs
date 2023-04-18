@@ -12,9 +12,9 @@ public class UIChanger : MonoBehaviour
         uiThing.SetActive(false);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider hand)
     {
-        if (other.gameObject.tag == "Hand")
+        if (hand.gameObject.tag == "Hand")
         { 
             uiThing.SetActive(true);
             StartCoroutine("WaitForSec");
@@ -23,7 +23,7 @@ public class UIChanger : MonoBehaviour
 
     IEnumerator WaitForSec()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(20);
         Destroy(uiThing);
     }
 }
