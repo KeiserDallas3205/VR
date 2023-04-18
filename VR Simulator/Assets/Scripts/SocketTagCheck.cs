@@ -7,9 +7,11 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SocketTagCheck : MonoBehaviour
 {
 	// Socket component for object
-    private XRSocketInteractor socket; 
-	
-	
+    private XRSocketInteractor socket;
+
+	// Text to be displayed
+	public GameObject correctText;
+	public GameObject wrongText;
 	
 	// Tag of the correct object
 	public string correctComponent;
@@ -30,10 +32,13 @@ public class SocketTagCheck : MonoBehaviour
 			{
 			// Accepted -> Display UI message to player
 			print("Correct spot, good job!");
+			correctText.SetActive(true);
+
 		}else
 		{
 			// Denied -> Display UI message to user
 			print("Wrong spot, try again.");
+			wrongText.SetActive(true);
 			
 		}
 	}
