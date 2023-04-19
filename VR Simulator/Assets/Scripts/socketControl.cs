@@ -34,6 +34,7 @@ public class socketControl : MonoBehaviour
             Debug.Log("correct thing attached!");
             print("correct thing attached");
             rb.constraints = RigidbodyConstraints.FreezeAll;
+			socket.allowHover = false;
         }
         else 
         {
