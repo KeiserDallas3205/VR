@@ -10,6 +10,7 @@ public class socketControl : MonoBehaviour
     public TextMeshPro text;
     public GameObject correctText;
     public GameObject incorrect;
+    public Rigidbody rb;
 
     // This is the object that would disappear upon socket snap
     //public GameObject grabbable;
@@ -18,11 +19,13 @@ public class socketControl : MonoBehaviour
     void Start()
     {
         socket = GetComponent<XRSocketInteractor>();
+        
     }
 
     public void socketCheck()
     {
         XRGrabInteractable obj = (XRGrabInteractable)socket.GetOldestInteractableSelected();
+        rb = obj.GetComponent<Rigidbody>();
 
         if (obj.CompareTag("CubeAttachTest"))
         {
@@ -30,7 +33,7 @@ public class socketControl : MonoBehaviour
             text.enabled = true;
             Debug.Log("correct thing attached!");
             print("correct thing attached");
-            //grabbable.SetActive(false);
+            rb.constraints = RigidbodyConstraints.FreezeAll;
         }
         else 
         {
