@@ -16,7 +16,11 @@ public class SceneChanger : MonoBehaviour
             SceneManager.LoadScene(room);
         }
     }
-
+	
+	public void changeScene(int sceneID) {
+		SceneManager.LoadScene(sceneID);
+		print("Changed scene");
+	}
 
     public void PlayAgain()
     {
