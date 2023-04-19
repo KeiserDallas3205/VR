@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Keiser Test.unity
     guid: 7c86d383552c84a46ad6e47c02c3f596
+  - enabled: 1
+    path: Assets/Scenes/Another Test.unity
+    guid: 6b422805b612cf54bb7beb0c0e4279df
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
