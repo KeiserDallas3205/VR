@@ -12,7 +12,7 @@ public class Checkpoint : MonoBehaviour
 	private string checkpoint;
 	
 	// Reference to default checkpoint
-	private string defaultCheckpoint = "Room1";
+	private string defaultCheckpoint = "PC Builder";
 	
    
 	public void Save(){
