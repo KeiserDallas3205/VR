@@ -8,6 +8,11 @@ TagManager:
   - Hand
   - CubeAttachTest
   - CPU
+  - RAM
+  - Motherboard
+  - Power Supply
+  - GPU
+  - Cooling
   layers:
   - Default
   - TransparentFX
