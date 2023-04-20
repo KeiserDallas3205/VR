@@ -13,6 +13,7 @@ TagManager:
   - Power Supply
   - GPU
   - Cooling
+  - Panel
   layers:
   - Default
   - TransparentFX
