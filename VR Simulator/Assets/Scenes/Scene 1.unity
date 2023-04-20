@@ -136,41 +136,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
-    - target: {fileID: 310598733771240081, guid: 2cb45a1647bc75948880d1494f35c257,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.1171209
-      objectReference: {fileID: 0}
-    - target: {fileID: 310598733771240081, guid: 2cb45a1647bc75948880d1494f35c257,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.64176893
-      objectReference: {fileID: 0}
-    - target: {fileID: 310598733771240081, guid: 2cb45a1647bc75948880d1494f35c257,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.36218306
-      objectReference: {fileID: 0}
-    - target: {fileID: 310598733771240081, guid: 2cb45a1647bc75948880d1494f35c257,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0.058559988
-      objectReference: {fileID: 0}
-    - target: {fileID: 310598733771240081, guid: 2cb45a1647bc75948880d1494f35c257,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -0.17911738
-      objectReference: {fileID: 0}
-    - target: {fileID: 310598733771240081, guid: 2cb45a1647bc75948880d1494f35c257,
-        type: 3}
-      propertyPath: m_Center.z
-      value: -0.026153272
-      objectReference: {fileID: 0}
-    - target: {fileID: 310598733771240081, guid: 2cb45a1647bc75948880d1494f35c257,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 310598733771240084, guid: 2cb45a1647bc75948880d1494f35c257,
         type: 3}
       propertyPath: m_RootOrder
