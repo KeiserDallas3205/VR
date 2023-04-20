@@ -7,10 +7,10 @@ using TMPro;
 public class socketControl : MonoBehaviour
 {
     public XRSocketInteractor socket;
-    public TextMeshPro text;
     public GameObject correctText;
     public GameObject incorrect;
     public Rigidbody rb;
+    public string tagName;
 
     // This is the object that would disappear upon socket snap
     //public GameObject grabbable;
@@ -27,10 +27,9 @@ public class socketControl : MonoBehaviour
         XRGrabInteractable obj = (XRGrabInteractable)socket.GetOldestInteractableSelected();
         rb = obj.GetComponent<Rigidbody>();
 
-        if (obj.CompareTag("CubeAttachTest"))
+        if (obj.CompareTag(tagName))
         {
             correctText.SetActive(true);
-            text.enabled = true;
             Debug.Log("correct thing attached!");
             print("correct thing attached");
             rb.constraints = RigidbodyConstraints.FreezeAll;
@@ -39,7 +38,6 @@ public class socketControl : MonoBehaviour
         else 
         {
             incorrect.SetActive(true);
-            text.enabled = false;
             Debug.Log("wrong thing attached...");
             print("wrong thing attached");
         }
