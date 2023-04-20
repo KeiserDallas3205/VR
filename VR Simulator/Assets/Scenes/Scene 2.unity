@@ -3262,7 +3262,7 @@ Transform:
   - {fileID: 4639442594697769311}
   - {fileID: 693660420966456427}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &427300142
 Mesh:
@@ -4791,6 +4791,7 @@ Transform:
   - {fileID: 1526353194}
   - {fileID: 1813734801}
   - {fileID: 881988388}
+  - {fileID: 1949223746}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12742,7 +12743,7 @@ PrefabInstance:
     - target: {fileID: 4579050089608190974, guid: 662df9fa625b1f749b642951c789f37f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4579050089608190974, guid: 662df9fa625b1f749b642951c789f37f,
         type: 3}
@@ -13179,7 +13180,7 @@ PrefabInstance:
     - target: {fileID: 310598733771240084, guid: 2cb45a1647bc75948880d1494f35c257,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 310598733771240084, guid: 2cb45a1647bc75948880d1494f35c257,
         type: 3}
@@ -20666,7 +20667,7 @@ GameObject:
   - component: {fileID: 1949223742}
   - component: {fileID: 1949223741}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Poster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20987,13 +20988,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949223740}
-  m_LocalRotation: {x: 0, y: -0.70710677, z: -0.70710677, w: 0}
-  m_LocalPosition: {x: 5.7034, y: 0.852, z: -24.041473}
-  m_LocalScale: {x: 1.2386, y: 1.2386, z: 2.0837717}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 19.71, y: -2.19, z: -11.92}
+  m_LocalScale: {x: 2.0053313, y: 2.0053315, z: 2.6059022}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 468339951}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 270, y: 90, z: 90}
 --- !u!43 &1976600681
 Mesh:
