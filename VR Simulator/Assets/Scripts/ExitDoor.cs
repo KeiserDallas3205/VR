@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 public class ExitDoor : MonoBehaviour
 {
   
-	void OnCollisionEnter(Collision c)
+	void OnTriggerEnter(Collider c)
 	{
-		if(c.gameObject.CompareTag("Player"))
+		if(c.CompareTag("Player"))
 		{
 			Application.Quit();
 		}
